@@ -1,7 +1,7 @@
 module Bot::DiscordCommands
   # Responds with "Pong!".
   # This used to check if bot is alive
-  module Ping
+  module Affinity
     extend Discordrb::Commands::CommandContainer
     command :affinity do |_event, *thing|
       thing = thing.join(" ")
