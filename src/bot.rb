@@ -2,6 +2,7 @@
 require 'discordrb'
 require 'ostruct'
 require 'yaml'
+require 'dotenv/load'
 
 # The main bot module.
 module Bot
@@ -15,7 +16,7 @@ module Bot
   # The bot is created as a constant, so that you
   # can access the cache anywhere.
   BOT = Discordrb::Commands::CommandBot.new(client_id: CONFIG.client_id,
-                                            token: CONFIG.token,
+                                            token: ENV["#{CONFIG.token}"],
                                             prefix: CONFIG.prefix)
 
   # This class method wraps the module lazy-loading process of discordrb command
