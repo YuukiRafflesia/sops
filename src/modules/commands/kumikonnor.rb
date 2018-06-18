@@ -1,6 +1,5 @@
 module Bot::DiscordCommands
-  # Responds with "Pong!".
-  # This used to check if bot is alive
+  # Sends Kumikonnor
   module Kumikonnor
     extend Discordrb::Commands::CommandContainer
     command :kumikonnor do |_event|

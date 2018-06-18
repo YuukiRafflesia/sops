@@ -1,6 +1,5 @@
 module Bot::DiscordCommands
-  # Responds with "Pong!".
-  # This used to check if bot is alive
+  # Sends Ohio
   module Ohio
     extend Discordrb::Commands::CommandContainer
     command :ohio do |_event|

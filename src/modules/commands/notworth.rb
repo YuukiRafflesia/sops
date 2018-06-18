@@ -1,6 +1,5 @@
 module Bot::DiscordCommands
-  # Responds with "Pong!".
-  # This used to check if bot is alive
+  # Sends NotWorth
   module NotWorth
     extend Discordrb::Commands::CommandContainer
     command :notworth do |_event|

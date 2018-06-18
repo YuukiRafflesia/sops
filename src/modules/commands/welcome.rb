@@ -1,6 +1,5 @@
 module Bot::DiscordCommands
-  # Responds with "Pong!".
-  # This used to check if bot is alive
+  # WELCOME TO MADE IN ANIME!!!!!
   module Welcome
     extend Discordrb::Commands::CommandContainer
     command :welcome do |_event|

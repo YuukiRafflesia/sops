@@ -1,6 +1,5 @@
 module Bot::DiscordCommands
-  # Responds with "Pong!".
-  # This used to check if bot is alive
+  # Checks something's affinity with our lord and saviour Peachyshea
   module Affinity
     extend Discordrb::Commands::CommandContainer
     command :affinity do |_event, *thing|
