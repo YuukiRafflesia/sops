@@ -1,5 +1,5 @@
 module Bot::DiscordCommands
-  # Sends Ohio
+  # Sends "Please do not finger the peaches"
   module Peach
     extend Discordrb::Commands::CommandContainer
     command :peach do |_event|
